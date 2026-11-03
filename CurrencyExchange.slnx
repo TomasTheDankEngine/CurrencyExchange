@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="global.json" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/CurrencyExchange.Domain/CurrencyExchange.Domain.csproj" />
+    <Project Path="src/CurrencyExchange.Application/CurrencyExchange.Application.csproj" />
+    <Project Path="src/CurrencyExchange.Infrastructure/CurrencyExchange.Infrastructure.csproj" />
+    <Project Path="src/CurrencyExchange.Cli/CurrencyExchange.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CurrencyExchange.Tests/CurrencyExchange.Tests.csproj" />
+  </Folder>
+</Solution>
