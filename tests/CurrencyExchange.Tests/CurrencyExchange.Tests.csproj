@@ -10,6 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Infrastructure\Fixtures\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\src\CurrencyExchange.Domain\CurrencyExchange.Domain.csproj" />
     <ProjectReference Include="..\..\src\CurrencyExchange.Application\CurrencyExchange.Application.csproj" />
     <ProjectReference Include="..\..\src\CurrencyExchange.Infrastructure\CurrencyExchange.Infrastructure.csproj" />
